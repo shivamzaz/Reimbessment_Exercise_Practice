@@ -8,7 +8,7 @@ int arr[100005];
 
 int main(int argc, char* argv[]) {
     // this stack will contain the lagest value against each traversing elemt else pop the value
-    // top value of the stack always seeking the lagest value rather than ownf they would find then push it and eliminate all affected smaller values.
+    // top value of the stack always seeking the lagest value rather than ownf they would find then push it and eliminate all affected smaller values.because we are going to move rightwards.
     stack <VP> first, second;
     int n;
     cin >> n;
