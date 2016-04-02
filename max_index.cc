@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
         cin >> arr[i];
 
     for (int i=1; i<=n; i++) {
-        while (!first.empty() && first.top().first<=arr[i])
+        while (!first.empty() && first.top().first<=arr[i]) // untill that's not being empty
             first.pop();
         if (first.empty()){
             first.push(VP(arr[i], i));
