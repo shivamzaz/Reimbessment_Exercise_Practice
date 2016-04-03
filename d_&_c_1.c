@@ -1,4 +1,4 @@
-#include "stdio.h"
+ #include "stdio.h"
 int  div(int i){
   if(i==1){
     return 0;
@@ -7,6 +7,14 @@ int  div(int i){
     //printf("hello");
     return (1+div(i/2));
   }
+}
+int fgh(int p){
+    if(p==2){
+        return 0;
+    }
+    else{
+      return 1+fgh(p/2)
+    }
 }
 int sd(int i,int n){
   int p=n;
@@ -26,6 +34,6 @@ int sd(int i,int n){
 int main(){
 int i=5,n=2;
   //sd(i,n);
-  printf("%d",sd(i,n));//div(t));
+  printf("%d",fgh(i));//div(t));
   return 0;
 }
