@@ -13,7 +13,7 @@ int fgh(int p){
         return 0;
     }
     else{
-      return 1+fgh(p/2)
+      return 1+fgh(p/2);
     }
 }
 int sd(int i,int n){
@@ -32,7 +32,7 @@ int sd(int i,int n){
   }
 }
 int main(){
-int i=5,n=2;
+int i=10,n=2;
   //sd(i,n);
   printf("%d",fgh(i));//div(t));
   return 0;
