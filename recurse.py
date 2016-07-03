@@ -14,8 +14,8 @@ def s_g(i,j,n):
 		j+=1
 		s_g(i,j,n)
 s_s(4)
-//for(i=0;i<n;i++){
+'''for(i=0;i<n;i++){
 	for(j=0;j<nj++){
 		cout<<n<<endl;
 	}
-}//
+}'''
