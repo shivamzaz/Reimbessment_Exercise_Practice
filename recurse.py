@@ -1,3 +1,4 @@
+##coder @ shivamzaz
 def s_s(n):
 	i=0
 	s_f(i,n)
