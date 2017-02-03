@@ -1,0 +1,22 @@
+supporter(){
+	i=0;
+	main_function(i,n);
+}
+main_function(i,n){
+	if(i<n){
+		j=0;
+		fuk(j,n);
+	}
+		main_function(i++,n)
+}
+fuk(j,n){
+	if(j<n){
+		cout<<i<<end;
+	}
+		fuk(j++,n)
+}
+//for(i=0;i<n;i++){
+	for(j=0;j<nj++){
+		cout<<n<<endl;
+	}
+}//

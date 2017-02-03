@@ -1,0 +1,3 @@
+how can be get last of 1,2,..n digits from the given number 
+6 & 1<<n
+# if we save array of disagrremants  using above formula and iterate over each element of given array.
